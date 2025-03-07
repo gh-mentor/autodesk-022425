@@ -1,23 +1,17 @@
-# This bash script uses git to synchronize changes between the local and remote GitHub repository.
 
-# steps:
 
-# 1. stage all changes 
-# 2. commit changes with message 'Updated'
-# 3. pull changes from remote repository
-# 4. push changes to remote repository on branch 'main'
-
-# 1. stage all changes
+# This command will add all the files to the staging area.
 git add .
 
-# 2. commit changes with message 'Updated'
+# This command will commit the changes to the local repository.
 git commit -m "Updated"
 
-# 3. pull changes from remote repository
+# This command will pull the changes from the remote repository.
 git pull origin main
 
-# 4. push changes to remote repository on branch 'main'
+# This command will push the changes to the remote repository.  
 git push origin main
 
-# Echo a message to the terminal
+
+# This command will display the message "Changes have been synchronized with the remote repository."
 echo "Changes have been synchronized with the remote repository."

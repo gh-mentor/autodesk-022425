@@ -1,9 +1,12 @@
-/**
- * This app uses TypeScript and D3.js to generate a set of data points and plot them on a graph.
- */
 
-Step 1: Create gendata function
+These steps define the specification to create an  app that uses TypeScript and D3.js to generate a set of data points and plot them on a graph.
+files: plot/gendata.ts, plot/plotdata.ts, plot/main.ts
+library: d3.js
+
+Step 1: Create gendata function (plot/gendata.ts)
  /**
+ * add import statements as needed
+ 
  * Create a function 'gendata' that generates a set of 100 data points (x, f(x)) and returns them as an array of objects.
  * Arguments:
  * - 'x_range' is a tuple of two integers representing the range of x values to generate.
@@ -22,11 +25,27 @@ Step 1: Create gendata function
  * - gendata([-100, 100]) generates an array with 'x' values between -100 and 100.
  */
 
- Step 2: Create plot function
+ Step 2: Create plot function (plot/plotdata.ts)
  /**
+* add import statements as needed
  * Create a function 'plotdata' that plots the data points on a graph.
  * Arguments:
  * - 'data' is an array of objects with 'x' and 'y' properties.
  * Returns:
  * - None
  */
+
+Step 3: Create main function (plot/main.ts)
+/**
+ * add import statements as needed
+* Create a function 'main' that generates data and plots it.
+* Arguments:
+* - None
+* Returns:
+* - None
+* Details:
+* - Generate data using the 'gendata' function.
+* - Plot the data using the 'plotdata' function.
+*/
+    
+

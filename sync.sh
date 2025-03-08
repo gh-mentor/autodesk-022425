@@ -14,4 +14,4 @@ git push origin main
 
 
 # This command will display the message "Changes have been synchronized with the remote repository."
-echo "Changes have been synchronized with the remote repository."
+echo "Changes have been synchronized with the remote repository on 'main' branch."

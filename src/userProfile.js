@@ -2,13 +2,7 @@
  * Class representing a user profile.
  */
 class UserProfile {
-  /**
-   * Create a user profile.
-   * @param {string} username - The username of the user.
-   * @param {string} email - The email of the user.
-   * @param {number} age - The age of the user.
-   * @param {string} phoneNumber - The phone number of the user.
-   */
+
   constructor(username, email, age, phoneNumber) {
     this.username = username;
     this.email = email;
@@ -16,9 +10,10 @@ class UserProfile {
     this.phoneNumber = phoneNumber;
   }
 
+
   /**
    * Print the user's profile information.
-   * @param {string} title - The title of the profile.
+   * @param {string} title - The title to be displayed above the profile information.
    */
   printProfile(title) {
     console.log(`--- ${title} ---`);

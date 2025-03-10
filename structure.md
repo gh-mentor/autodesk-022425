@@ -1,4 +1,4 @@
-** target file: src/userProfile.js
+** target file: 'src/userProfile.js'
 
 Create a JavaScript class 'UserProfile' with the following  properties:
 - username
